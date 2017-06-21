@@ -11,6 +11,8 @@
 
 * [慢查询分析](./AdditionalFunction/SlowLog.md)
 
+* [redis-cli详解](./AdditionalFunction/RedisCli.md)
+
 
 ### [命令时间复杂度](./CommandTimeComplexity/CommandTimeComplexity.md)
 
