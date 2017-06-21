@@ -13,6 +13,7 @@
 
 * [redis-cli详解](./AdditionalFunction/RedisCli.md)
 
+* [redis-benchmark详解](./AdditionalFunction/RedisBenchmark.md)
 
 ### [命令时间复杂度](./CommandTimeComplexity/CommandTimeComplexity.md)
 
