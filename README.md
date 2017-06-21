@@ -7,6 +7,11 @@
 * [遍历键](./OperationsToNote/TraverseKeys.md)
 
 
+### 附加功能
+
+* [慢查询分析](./AdditionalFunction/SlowLog.md)
+
+
 ### [命令时间复杂度](./CommandTimeComplexity/CommandTimeComplexity.md)
 
 * [字符串命令时间复杂度](./CommandTimeComplexity/CommandTimeComplexity.md#string)
