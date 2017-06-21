@@ -2,7 +2,7 @@
 
 Redis提供了两个命令遍历所有键，keys和scan。
 
-#### 全量遍历键
+### 全量遍历键
 
 ```
 keys pattern
