@@ -14,7 +14,7 @@
 * [redis-cli详解](./AdditionalFunction/RedisCli.md)
 
 
-### [命令时间复杂度](./CommandTimeComplexity/CommandTimeComplexity.md)
+### 命令时间复杂度
 
 * [字符串命令时间复杂度](./CommandTimeComplexity/CommandTimeComplexity.md#string)
 
