@@ -2,6 +2,8 @@
 
 ### 需要注意的操作
 
+* [set操作会清除过期时间](./OperationsToNote/SetRemoveExpire.md)
+
 * [遍历键](./OperationsToNote/TraverseKeys.md)
 
 
