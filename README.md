@@ -1,13 +1,18 @@
 # Redis资料整理
 
-### [命令时间复杂度](./CommandTimeComplexity.md)
+### 需要注意的操作
 
-* [字符串命令时间复杂度](./CommandTimeComplexity.md#string)
+* [遍历键](./OperationsToNote/TraverseKeys.md)
 
-* [哈希命令时间复杂度](./CommandTimeComplexity.md#hash)
 
-* [列表命令时间复杂度](./CommandTimeComplexity.md#list)
+### [命令时间复杂度](./CommandTimeComplexity/CommandTimeComplexity.md)
 
-* [无序集合命令时间复杂度](./CommandTimeComplexity.md#unordered_set)
+* [字符串命令时间复杂度](./CommandTimeComplexity/CommandTimeComplexity.md#string)
 
-* [有序集合命令时间复杂度](./CommandTimeComplexity.md#ordered_set)
+* [哈希命令时间复杂度](./CommandTimeComplexity/CommandTimeComplexity.md#hash)
+
+* [列表命令时间复杂度](./CommandTimeComplexity/CommandTimeComplexity.md#list)
+
+* [无序集合命令时间复杂度](./CommandTimeComplexity/CommandTimeComplexity.md#unorderedSet)
+
+* [有序集合命令时间复杂度](./CommandTimeComplexity/CommandTimeComplexity.md#ordered_set)
