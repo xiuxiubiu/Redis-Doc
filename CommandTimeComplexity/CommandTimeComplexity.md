@@ -90,7 +90,7 @@
 | --- | --- |
 | zadd key score member [score member ...] | O(k*log(n))，k是添加成员的个数，n是当前有序集合成员个数 |
 | zcard key | O(1) |
-| zscord key | O(1) |
+| zscore key | O(1) |
 | zrank key member <br> zrevrank key member | O(log(n))，n是当前有序集合成员个数 |
 | zrem key member [member ...] | O(k*(log(n)))，k是删除成员的个数，n是有序集合成员个数 |
 | zincreby key increment member | O(log(n))，n是当前有序集合成员个数 |
