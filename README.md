@@ -1,5 +1,11 @@
 # Redis资料整理
 
+### [Redis中使用Lua](./Redis-Lua/UseLua.md)
+
+* [eval和evalsha](./Redis-Lua/UseLua.md#eval-evalsha)
+
+* [script命令](./Redis-Lua/UseLua.md#script)
+
 ### 需要注意的操作
 
 * [set操作会清除过期时间](./OperationsToNote/SetRemoveExpire.md)
@@ -15,7 +21,7 @@
 
 * [redis-benchmark详解](./AdditionalFunction/RedisBenchmark.md)
 
-### [命令时间复杂度](./CommandTimeComplexity/CommandTimeComplexity.md)
+### [命令时间复度](./CommandTimeComplexity/CommandTimeComplexity.md)
 
 * [字符串命令时间复杂度](./CommandTimeComplexity/CommandTimeComplexity.md#string)
 
