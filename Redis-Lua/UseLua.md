@@ -1,6 +1,6 @@
 # Redis中使用Lua
 
-** 因为Redis是单线程，所以在Redis中执行lua脚本时间过长或死循环，会导致后面的命令被阻塞。 **
+**因为Redis是单线程，所以在Redis中执行lua脚本时间过长或死循环，会导致后面的命令被阻塞。**
 
 #### Lua脚本为Redis开发和运维人员带来的好处：
 
@@ -37,7 +37,7 @@ evalsha a42059b356c875f0717db19a51f6aaca9ae659ea
 * script exists script [script ...]
 
     检查脚本是否存在脚本缓存里
-    
+
 ```
 scirpt exists a42059b356c875f0717db19a51f6aaca9ae659ea a42059b356c875f0717db19a51f6aaca9ae659e
 ```
