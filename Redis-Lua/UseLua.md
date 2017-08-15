@@ -16,9 +16,9 @@
 
 * eval 脚本内容 key个数 key列表 参数列表
 
-    ```
+```
 eval 'return {KEYS[1],KEYS[2],ARGV[1],ARGV[2]}' 2 key1 key2 arg1 arg2
-    ```
+```
     eval的第一个参数是Lua脚本程序，这段脚本不需要也不应该定义函数。
     eval的第二个参数是参数个数。此参数后参数个数内的参数表示Redis中用到的键，可以通过全局变量KEYS数组访问。其余为附加参数，可以通过全局变量ARGV数组访问。
 
@@ -26,9 +26,9 @@ eval 'return {KEYS[1],KEYS[2],ARGV[1],ARGV[2]}' 2 key1 key2 arg1 arg2
 
 * evalsha 脚本SHA1值 key个数 key列表 参数列表
 
-    ```
+```
 evalsha a42059b356c875f0717db19a51f6aaca9ae659ea
-    ```
+```
 
 <div id="script"></div>
 
@@ -37,9 +37,10 @@ evalsha a42059b356c875f0717db19a51f6aaca9ae659ea
 * script exists script [script ...]
 
     检查脚本是否存在脚本缓存里
-    ```
+    
+```
 scirpt exists a42059b356c875f0717db19a51f6aaca9ae659ea a42059b356c875f0717db19a51f6aaca9ae659e
-    ```
+```
 
 * script flush
 
