@@ -1,5 +1,7 @@
 # Redis资料整理
 
+### [Pipeline](./Pipeline.md)
+
 ### [Redis中使用Lua](./Redis-Lua/UseLua.md)
 
 * [eval和evalsha](./Redis-Lua/UseLua.md#eval-evalsha)
