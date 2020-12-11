@@ -95,9 +95,9 @@
 | zrem key member [member ...] | O(k*(log(n)))，k是删除成员的个数，n是有序集合成员个数 |
 | zincreby key increment member | O(log(n))，n是当前有序集合成员个数 |
 | zrange key start end [withscores] <br> zrevrange key start end [withscores] | O(log(n)+k)，k是要获取的成员个数，n是当前有序集合成员个数 |
-| zrangebyscore key min max [withscores] <br> zrevrangebyscore key min max [withscores] | O(log(n)+k)，k是要获取的成员个数，n是当前有序集合成员个数 |
+| zrangebyscore key min max [withscores] <br> zrevrangebyscore key max min [withscores] | O(log(n)+k)，k是要获取的成员个数，n是当前有序集合成员个数 |
 | zcount key | O(log(n))，n是当前有序集合成员个数 |
 | zremrangebyrank key start end | O(log(n)+k)，k是要删除的成员个数，n是当前有序集合成员个数 |
-| zremrangebyscore key max min | 0(log(n)+k)，k是要删除的成员个数，n是当前有序集合成员个数 |
+| zremrangebyscore key min max | 0(log(n)+k)，k是要删除的成员个数，n是当前有序集合成员个数 |
 | zinterstore destination numkeys key [key ...] | O(n*k)+O(m*log(m))，n是成员数最小的有序集合成员个数，k是有序集合个数，m是结果集中成员个数 |
 | zunionstore destination numkeys key [key ...] | O(n)+O(m*log(m))，n是所有有序集合成员个数和，m是结果集中成员个数 |
